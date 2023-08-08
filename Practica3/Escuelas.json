@@ -1,0 +1,121 @@
+{
+  "lista": {
+    "cabecera": {
+      "dato": {
+        "escuela": {
+          "id": 1,
+          "nombre": "Dolorosa"
+        },
+        "adyacencias": {
+          "cabecera": {
+            "dato": {
+              "destino": 2,
+              "peso": 20.0
+            },
+            "siguiente": {
+              "dato": {
+                "destino": 3,
+                "peso": 40.0
+              },
+              "siguiente": {
+                "dato": {
+                  "destino": 4,
+                  "peso": 20.0
+                }
+              }
+            }
+          },
+          "tamanio": 3
+        }
+      },
+      "siguiente": {
+        "dato": {
+          "escuela": {
+            "id": 2,
+            "nombre": "Pio Jaramillo"
+          },
+          "adyacencias": {
+            "cabecera": {
+              "dato": {
+                "destino": 1,
+                "peso": 15.0
+              },
+              "siguiente": {
+                "dato": {
+                  "destino": 3,
+                  "peso": 15.0
+                },
+                "siguiente": {
+                  "dato": {
+                    "destino": 4,
+                    "peso": 25.0
+                  }
+                }
+              }
+            },
+            "tamanio": 3
+          }
+        },
+        "siguiente": {
+          "dato": {
+            "escuela": {
+              "id": 3,
+              "nombre": "Calazans"
+            },
+            "adyacencias": {
+              "cabecera": {
+                "dato": {
+                  "destino": 1,
+                  "peso": 20.0
+                },
+                "siguiente": {
+                  "dato": {
+                    "destino": 2,
+                    "peso": 15.0
+                  },
+                  "siguiente": {
+                    "dato": {
+                      "destino": 4,
+                      "peso": 15.0
+                    }
+                  }
+                }
+              },
+              "tamanio": 3
+            }
+          },
+          "siguiente": {
+            "dato": {
+              "escuela": {
+                "id": 4,
+                "nombre": "San gerardo"
+              },
+              "adyacencias": {
+                "cabecera": {
+                  "dato": {
+                    "destino": 1,
+                    "peso": 10.0
+                  },
+                  "siguiente": {
+                    "dato": {
+                      "destino": 3,
+                      "peso": 30.0
+                    },
+                    "siguiente": {
+                      "dato": {
+                        "destino": 2,
+                        "peso": 25.0
+                      }
+                    }
+                  }
+                },
+                "tamanio": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "tamanio": 4
+  }
+}
